@@ -14,7 +14,7 @@ FuzzyGrassmann(fuzzyNumber_1, fuzzyNumber_2, ...)
 - if the FuzzyGrassman instance gets n arguments it returns a fuzzy n-al number;
 
 
-FuzzyGrassmannAdd(FG_1, FG2)
+FuzzyGrassmannAdd(FG_1, FG_2)
 
 FuzzyGrassmannMultiply(FG_1, FG_2)
 

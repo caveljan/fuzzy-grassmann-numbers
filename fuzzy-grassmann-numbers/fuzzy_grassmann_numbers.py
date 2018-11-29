@@ -1,6 +1,7 @@
 class GrassmannNumber():
     def __init__(self, *args):
         self.args = args
+        print(args)
 
 
 def GrassmannAdd(first_number, second_number):
@@ -30,4 +31,10 @@ gn2 = GrassmannNumber(3, 4, 235)
 
 gn3 = GrassmannAdd(gn1, gn2)
 
-print(gn3)
+print('Grassmann add', gn3)
+print('----')
+
+fn1 = FuzzyNumber(0.2, [2, 3])
+fn2 = FuzzyNumber(0.2, [1, 2])
+
+gn3 = GrassmannNumber(fn1, fn2)

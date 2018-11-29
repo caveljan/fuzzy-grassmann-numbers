@@ -7,6 +7,7 @@ A `Python` library for the mathematics of Fuzzy Grassmann Numbers.
     + [Grassmann Numbers](#grassmann-numbers)
     + [Fuzzy Numbers](#fuzzy-numbers)
     + [Fuzzy Grassmann Numbers](#fuzzy-grassmann-numbers)
+    + [Grassmann Fuzzy Numbers](#grassmann-fuzzy-numbers)
 + [Inspiration](#inspiration)
 
 

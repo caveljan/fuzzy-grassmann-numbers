@@ -47,7 +47,7 @@ and so forth.
 
 A fuzzy number describes the degree of belonging to a certain set with the use of a membership function.
 
-Given an interval `[x_1, x_2]`, with `x_1` and `x_2` being real numbers, we map each number in the interval to a number in the real segment [0, 1]. This mapping characterizes the belonging, the membership of the entity to the set.
+Given an interval `[x_1, x_2]`, with `x_1` and `x_2` being real numbers, we map each number in the interval to a number in the real segment `[0, 1]`. This mapping characterizes the belonging, the membership of the entity to the set.
 
 Addition would take then the form:
 
@@ -68,13 +68,24 @@ Division:
 
 ### Fuzzy Grassmann Numbers
 
-Considering the Grassmann number
+Considering the Grassmann Number
 
-    g = a + b⋅ε_1 + c⋅ε_2 + ...
+    gn = a + b⋅ε_1 + c⋅ε_2 + ...
 
-A Fuzzy Grassmann number is one where the coefficients `a`, `b`, `c`, and so forth are fuzzy numbers, arriving at
+A Fuzzy Grassmann Number is one where the coefficients `a`, `b`, `c`, and so forth are Fuzzy Numbers, arriving at
 
-    fg = [a_1, a_2] + [b_1, b_2]⋅ε_1 + [c_1, c_2]⋅ε_2 + ...
+    fgn = [a_1, a_2] + [b_1, b_2]⋅ε_1 + [c_1, c_2]⋅ε_2 + ...
+
+
+### Grassmann Fuzzy Numbers
+
+Considering the Fuzzy Number
+
+    fn = [ x_1, x_2 ]
+
+A Grassmann Fuzzy Number is one where the limits `x_1` and `x_2`, are Grassmann Numbers, arriving at
+
+    gfn = [ x_1_a + x_1_b⋅ε_1 + x_1_c⋅ε_2 + ... , x_2_a + x_2_b⋅ε_1 + x_2_c⋅ε_2 + ... ]
 
 
 

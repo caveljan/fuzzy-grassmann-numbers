@@ -73,4 +73,4 @@ A Fuzzy Grassmann number is one where the coefficients `a`, `b`, `c`, and so for
 
 ## Inspiration
 
-This idea of a Fuzzy Grassmann Number arrived while glancing over `2017, Felix Mora-Camino, Carlos Alberto Nunes Cosenza, Fuzzy Dual Numbers. Theory and Applications, Springer`.
+This idea of a Fuzzy Grassmann Number arrived while glancing over `2017, Felix Mora-Camino, Carlos Alberto Nunes Cosenza,` `Fuzzy Dual Numbers. Theory and Applications, Springer`.

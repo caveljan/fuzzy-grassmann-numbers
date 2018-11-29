@@ -3,6 +3,13 @@
 A `Python` library for the mathematics of Fuzzy Grassmann Numbers.
 
 
++ [Concept](#concept)
+    + [Grassmann Numbers](#grassmann-numbers)
+    + [Fuzzy Numbers](#fuzzy-numbers)
+    + [Fuzzy Grassmann Numbers](#fuzzy-grassmann-numbers)
++ [Inspiration](#inspiration)
+
+
 ## Concept
 
 ### Grassmann Numbers

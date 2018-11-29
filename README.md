@@ -16,7 +16,7 @@ A dual number is an extension of the real numbers, and has the form
 where
 
     a, b are real numbers and
-    ε^2 = 0
+    ε ∧ ε = 0
 
 Therefore, a Grassmann number will have the form
 
@@ -24,14 +24,14 @@ Therefore, a Grassmann number will have the form
 
 where
 
-    ε_1^2 = 0
-    ε_2^2 = 0
-    ε_3^2 = 0
+    ε_1 ∧ e_1 = 0
+    ε_2 ∧ e_2 = 0
+    ε_3 ∧ e_3 = 0
 
 and so forth, but their multiplication will be
 
-    ε_1 ⋅ e_2 = - ε_2 ⋅ e_1
-    ε_2 ⋅ e_3 = - ε_3 ⋅ e_2
+    ε_1 ∧ e_2 = - ε_2 ∧ e_1
+    ε_2 ∧ e_3 = - ε_3 ∧ e_2
 
 and so forth.
 

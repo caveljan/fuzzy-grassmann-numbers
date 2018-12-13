@@ -18,7 +18,7 @@ setup(name='fuzzy_grassmann_numbers',
         'Topic :: Text Processing :: Linguistic',
     ],
     project_urls={
-        'Website': 'https://languagepy.org',
+        'Website': '',
         'Documentation': '',
         'Source': 'https://github.com/caveljan/fuzzy-grassmann-numbers',
         'Tracker': 'https://github.com/caveljan/fuzzy-grassmann-numbers/issues',

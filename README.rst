@@ -1,7 +1,7 @@
 Fuzzy ⇌ Grassmann Numbers
 =========================
 
-A ``Python`` library for the mathematics of Fuzzy Grassmann Numbers.
+A ``Python`` library for the mathematics of Fuzzy ⇌ Grassmann Numbers.
 
 
 .. contents::
@@ -46,7 +46,7 @@ where
 
 and so forth,
 
-however their one-to-one multiplication will be
+however their one-to-one exterior product will be
 
 ::
 

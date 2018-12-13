@@ -1,4 +1,4 @@
-Fuzzy ↔ Grassmann Numbers
+Fuzzy ⇌ Grassmann Numbers
 =========================
 
 A ``Python`` library for the mathematics of Fuzzy Grassmann Numbers.
@@ -44,7 +44,9 @@ where
     ε_2 ∧ e_2 = 0
     ε_3 ∧ e_3 = 0
 
-and so forth, but their multiplication will be
+and so forth,
+
+however their one-to-one multiplication will be
 
 ::
 

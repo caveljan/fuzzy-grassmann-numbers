@@ -4,7 +4,7 @@ Fuzzy Grassmann Numbers
 A ``Python`` library for the mathematics of Fuzzy Grassmann Numbers.
 
 
-- `Concept`_
+- Concept_
     - `Grassmann Numbers`_
     - `Fuzzy Numbers`_
     - `A - Fuzzy Grassmann Numbers`_

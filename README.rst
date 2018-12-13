@@ -12,6 +12,9 @@ A ``Python`` library for the mathematics of Fuzzy Grassmann Numbers.
 - `Inspiration`_
 
 
+.. contents::
+
+
 
 Concept
 -------

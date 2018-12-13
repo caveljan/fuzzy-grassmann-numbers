@@ -4,15 +4,8 @@ Fuzzy Grassmann Numbers
 A ``Python`` library for the mathematics of Fuzzy Grassmann Numbers.
 
 
-- `Concept`_
-    - `Grassmann Numbers`_
-    - `Fuzzy Numbers`_
-    - `A - Fuzzy Grassmann Numbers`_
-    - `B - Grassmann Fuzzy Numbers`_
-- `Inspiration`_
-
-
 .. contents::
+    :local:
 
 
 
@@ -95,8 +88,8 @@ Division:
 
 
 
-A - Fuzzy Grassmann Numbers
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Fuzzy Grassmann Numbers
+^^^^^^^^^^^^^^^^^^^^^^^
 
 Considering the Grassmann Number
 
@@ -112,8 +105,8 @@ A Fuzzy Grassmann Number is one where the coefficients ``a``, ``b``, ``c``, and 
 
 
 
-B - Grassmann Fuzzy Numbers
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Grassmann Fuzzy Numbers
+^^^^^^^^^^^^^^^^^^^^^^^
 
 Considering the Fuzzy Number
 

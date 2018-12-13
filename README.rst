@@ -1,4 +1,4 @@
-Fuzzy Grassmann Numbers
+Fuzzy↔Grassmann Numbers
 =======================
 
 A ``Python`` library for the mathematics of Fuzzy Grassmann Numbers.

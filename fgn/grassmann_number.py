@@ -3,18 +3,31 @@ class GN():
 
     """
 
-    def __init__(self, *args):
-        self.args = args
-        print(args)
+    def __init__(self, values):
+        self.grade = len(values)
+        self.values = values
+        print(self.values)
 
-    def add(self, first_number, second_number):
-        # print(f'The first GrassmannNumber: {first_number.args}')
-        # print(f'The second GrassmannNumber: {second_number.args}')
-        first_number = first_number.args
-        second_number = second_number.args
-        sum_number = []
-        if len(first_number) == len(second_number):
-            for i in range(len(first_number)):
-                sum = first_number[i] + second_number[i]
-                sum_number.append(sum)
-        return sum_number
+    def add(self, other):
+        newGN = []
+        for i in range(len(self.values)):
+            newGN.append(self.values[i] + other.values[i])
+        return GN(newGN)
+
+    def subtract(self, other):
+        newGN = []
+        for i in range(len(self.values)):
+            newGN.append(self.values[i] - other.values[i])
+        return GN(newGN)
+
+    def multiply(self, other):
+        newGN = []
+        for i in range(len(self.values)):
+            newGN.append(self.values[i] * other.values[i])
+        return GN(newGN)
+
+    def divide(self, other):
+        newGN = []
+        for i in range(len(self.values)):
+            newGN.append(self.values[i] / other.values[i])
+        return GN(newGN)

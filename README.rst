@@ -1,5 +1,6 @@
 .. image:: https://raw.githubusercontent.com/caveljan/fuzzy-grassmann-numbers/master/about/identity/fgn-logo.png
     :width: 10pt
+    :align: middle
 
 
 Fuzzy ⇌ Grassmann Numbers

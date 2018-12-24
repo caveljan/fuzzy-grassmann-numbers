@@ -8,6 +8,7 @@ class GN():
         self.values = values
         print(self.values)
 
+
     def add(self, other):
         if isinstance(other, GN):
             newGN = []

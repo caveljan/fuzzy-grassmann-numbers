@@ -1,3 +1,6 @@
+.. iamge:: ./about/identity/fgn.logo.png
+
+
 Fuzzy ⇌ Grassmann Numbers
 =========================
 

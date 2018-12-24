@@ -5,6 +5,7 @@ from .context import grassmann_number
 def simple_add():
     gn1 = grassmann_number.GN([2, 3, 4])
     gn2 = grassmann_number.GN([2, 1, 0])
+    # gn2 = [2, 1, 0]
     return gn1.add(gn2)
 
 def test_simple_add():

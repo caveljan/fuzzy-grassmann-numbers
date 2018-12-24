@@ -9,25 +9,40 @@ class GN():
         print(self.values)
 
     def add(self, other):
-        newGN = []
-        for i in range(len(self.values)):
-            newGN.append(self.values[i] + other.values[i])
-        return GN(newGN)
+        if isinstance(other, GN):
+            newGN = []
+            for i in range(len(self.values)):
+                newGN.append(self.values[i] + other.values[i])
+            return GN(newGN)
+        else:
+            print('The number needs to be a Grassmann Number (GN instance).')
+
 
     def subtract(self, other):
-        newGN = []
-        for i in range(len(self.values)):
-            newGN.append(self.values[i] - other.values[i])
-        return GN(newGN)
+        if isinstance(other, GN):
+            newGN = []
+            for i in range(len(self.values)):
+                newGN.append(self.values[i] - other.values[i])
+            return GN(newGN)
+        else:
+            print('The number needs to be a Grassmann Number (GN instance).')
+
 
     def multiply(self, other):
-        newGN = []
-        for i in range(len(self.values)):
-            newGN.append(self.values[i] * other.values[i])
-        return GN(newGN)
+        if isinstance(other, GN):
+            newGN = []
+            for i in range(len(self.values)):
+                newGN.append(self.values[i] * other.values[i])
+            return GN(newGN)
+        else:
+            print('The number needs to be a Grassmann Number (GN instance).')
+
 
     def divide(self, other):
-        newGN = []
-        for i in range(len(self.values)):
-            newGN.append(self.values[i] / other.values[i])
-        return GN(newGN)
+        if isinstance(other, GN):
+            newGN = []
+            for i in range(len(self.values)):
+                newGN.append(self.values[i] / other.values[i])
+            return GN(newGN)
+        else:
+            print('The number needs to be a Grassmann Number (GN instance).')

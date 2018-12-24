@@ -40,3 +40,11 @@ def simple_divide():
 
 def test_simple_divide():
     assert simple_divide().values == [1, 3, 4]
+
+
+def display():
+    gn1 = grassmann_number.GN([1, 2, 3, 4, 5, 6, 7, 8])
+    return gn1.display()
+
+def test_display():
+    assert display() == '1 + 2⋅e_1 + 3⋅e_2 + 4⋅e_3 + 5⋅e_4 + 6⋅e_5 + 7⋅e_6 + 8⋅e_7'

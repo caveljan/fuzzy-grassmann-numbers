@@ -46,3 +46,13 @@ class GN():
             return GN(newGN)
         else:
             print('The number needs to be a Grassmann Number (GN instance).')
+
+
+    def display(self):
+        gn = ''
+        for i in range(len(self.values)):
+            if (i == 0):
+                gn += str(self.values[i])
+            else:
+                gn += ' + ' + str(self.values[i]) + '⋅e_' + str(i)
+        return gn

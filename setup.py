@@ -1,7 +1,7 @@
 from setuptools import setup
 
 def readme():
-    with open('README.rst') as f:
+    with open('README.rst', encoding='utf-8') as f:
         return f.read()
 
 setup(name='fuzzy_grassmann_numbers',
@@ -24,7 +24,8 @@ setup(name='fuzzy_grassmann_numbers',
         'Tracker': 'https://github.com/caveljan/fuzzy-grassmann-numbers/issues',
     },
     keywords='fuzzy grassmann numbers',
-    url='',
+    url='https://github.com/caveljan/fuzzy-grassmann-numbers',
+    label='fuzzy grassman numbers',
     author='Jan Cavel',
     author_email='mail@caveljan.com',
     license='MIT',
@@ -33,7 +34,7 @@ setup(name='fuzzy_grassmann_numbers',
         'console_scripts': [''],
     },
     python_requires='>=3',
-    test_suite='nose.collector',
-    tests_require=['nose'],
+    test_suite='tests',
+    tests_require=['py.test'],
     include_package_data=True,
     zip_safe=False)

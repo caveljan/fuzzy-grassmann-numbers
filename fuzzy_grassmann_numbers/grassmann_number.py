@@ -8,6 +8,8 @@ class GN():
         self.values = values
         print(self.values)
 
+    def __repr__(self):
+        return 'Grassmann Number(*{!r})'.format(self.values)
 
     def add(self, other):
         if isinstance(other, GN):

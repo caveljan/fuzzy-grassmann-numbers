@@ -1,4 +1,4 @@
-.. image:: https://raw.githubusercontent.com/caveljan/fuzzy-grassmann-numbers/master/about/identity/fgn-logo.png
+.. image:: https://raw.githubusercontent.com/ly3xqhl8g9/fuzzy-grassmann-numbers/master/about/identity/fgn-logo.png
     :align: center
 
 
